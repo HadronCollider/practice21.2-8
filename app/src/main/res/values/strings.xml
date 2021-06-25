@@ -1,3 +1,22 @@
 <resources>
-    <string name="app_name">AndroidGithubCiTemplate</string>
+    <string name="app_name">Expanse manager</string>
+    <color name="back_main">#484747</color>
+    <color name="txt_box">#ffeb3b</color>
+    <color name="trans">#00ffeb3b</color>
+
+    <string-array name="currancies">
+        <item>$</item>
+        <item>£</item>
+        <item>¥</item>
+        <item>€</item>
+        <item>₪</item>
+        <item>₽</item>
+    </string-array>
+
+    <string-array name="ops">
+        <item>I owe</item>
+        <item>I lent</item>
+        <item>Expense</item>
+        <item>Income</item>
+    </string-array>
 </resources>

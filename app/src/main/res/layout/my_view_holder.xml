@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/MCV"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginLeft="7dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginRight="7dp"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="false"
+    app:strokeColor="#37FF00"
+    app:strokeWidth="1.5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#262525"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/amt"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginStart="2dp"
+                android:layout_weight="1"
+                android:background="#00FFFFFF"
+                android:gravity="center"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="Text"
+                android:textAlignment="viewStart"
+                android:textColor="@color/txt_box"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"
+                android:text="TextView"
+                android:textColor="@color/txt_box"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/dis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            android:paddingStart="5dp"
+            android:paddingEnd="5dp"
+            android:text="TextView"
+            android:textColor="@color/txt_box"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
